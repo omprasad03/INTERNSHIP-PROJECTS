@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Sevillana&family=Source+Sans+Pro:ital,wght@1,600&display=swap'); 
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #141757;
+}
+#main{
+    color: #fff;
+}
+#main-title{
+   text-align: center;
+   margin-top: 10px;
+   font-family: 'Kanit', sans-serif;
+}
+img{
+    width: 27rem;
+    height: 30rem;
+    border: 3px groove #fff;
+    border-top-right-radius:  2em;
+    border-bottom-right-radius:  2em;
+    box-shadow: inset 10px 10px 12px #ffffff,
+                      10px 10px 12px rgba(0,0,0,0.6);
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#img-div{
+    width: 84.2pc;
+    height: 33.8pc;
+    background-color: rgba(123, 29, 21, 0.552);
+    margin-top: 10px;
+}
+#img-caption{
+    text-align:right;
+    width: 630px;
+    float:right;
+    margin-right: 8pc;
+    margin-top: 5pc;
+    font-family: 'Prosto One', cursive;
+    font-size: 35px;
+    color: cornsilk;
+    opacity: 0.5;
+}
+#tribute-info{
+    border: 2.5px dashed rgba(255, 255, 255, 0.606);
+    margin: 0 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+#tribute-info h2{
+    color: rgba(255, 255, 255, 0.743);
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+#tribute-info blockquote{
+    font-size: large;
+    font-style: oblique;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#tribute-info p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+#tribute-info h4{
+    font-style: italic;
+}
